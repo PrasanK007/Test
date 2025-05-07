@@ -1,0 +1,14 @@
+Java OOP Conceptual Questions(Answers only)
+
+1. There is no default constructor defined
+
+2. Vehicle Starting( reason : it is calling method without arguments)
+
+3.  20 – obj1 and obj2 refer to the same object 
+
+4. NullPointerException
+5. NullPointerException,
+
+Animal constructor runs first, inside Animal(), speak() is called but speak()           is overridden in Dog, so Dog.speak() is executed. 
+At that moment, sound is still null because Dog constructor has not initialized it yet.
+So in place of sound.toUpperCase() it becomes null.toUpperCase() throws an NullPointerException
