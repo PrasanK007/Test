@@ -1,0 +1,31 @@
+1. 
+
+We have to use LinkedHashMap<String,Integer>. Because we need to store fruit name and quantity so we need key value pair. In LinkedHashMap duplicates are allowed and insertion order is preserved. 
+
+2. 
+
+We should use TreeSet because based on prefix words need to come and in dictionary words are unique and words are also sorted alphabetically. TreeSet does not allow duplicate, and string(word) will be sorted alphabetically. 
+
+3. 
+
+We should use LinkedHashMap class as it can be configured to maintain the order in which elements were last accessed. As we can get which element was used least recently so removing the element is easy. 
+
+4. 
+
+In leaderboard players and their associated score will be displayed so we need key value pair. Therefore, we should go with TreeMap. As we have to display players as per their score in descending order we need comparator. 
+
+5. 
+
+As events are published and consumed in the same order they are received, the first event will be consumed first so it maintains FIFO. So we should use ArrayDequeue because it gives good performance while adding or removing from end. 
+
+6. 
+
+We can use LinkedHashSet. It is suitable for the task because it preserves insertion order and allows no duplicate. 
+
+7. 
+
+A file directory where each folder can have subfolders and files is a tree like structure. 
+
+8.  
+
+We can choose to use PriorityQueue as it is designed to order elements based on their priority so we can pick elements based on priority. 
